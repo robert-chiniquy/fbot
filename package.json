@@ -1,0 +1,12 @@
+{
+  "author": "rch",
+  "name": "fbot",
+  "description": "irc bot + express webapp for controlling simple automation",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/robert-chiniquy/fbot.git"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
