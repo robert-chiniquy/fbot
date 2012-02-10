@@ -7,9 +7,7 @@
     "type": "git",
     "url": "git://github.com/robert-chiniquy/fbot.git"
   },
-  "main": "main.js",
   "files": [
-    "main.js",
     "spec",
     "lib",
     "package.json",
