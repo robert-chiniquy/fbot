@@ -28,6 +28,7 @@
     "jasmine-node": ">=1.0.20"
   },
   "scripts": {
+    "start": "node bin/fbot.js",
     "test": "node node_modules/jasmine-node/lib/jasmine-node/cli.js --verbose --color spec/"
   }
 }
