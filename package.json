@@ -7,6 +7,27 @@
     "type": "git",
     "url": "git://github.com/robert-chiniquy/fbot.git"
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "main": "fbot",
+  "files": [
+    "main.js",
+    "spec",
+    "lib",
+    "package.json",
+    "README.md"
+  ],
+  "engine": {
+    "node": ">=0.6.10"
+  },
+  "dependencies": {
+    "async": ">=0.1.15",
+    "jerk": "*",
+    "express": ">=2.5.8",
+    "underscore": ">=1.3.1"
+  },
+  "devDependencies": {
+    "jasmine-node": ">=1.0.20"
+  },
+  "scripts": {
+    "test": "node node_modules/jasmine-node/lib/jasmine-node/cli.js --verbose --color spec/"
+  }
 }
