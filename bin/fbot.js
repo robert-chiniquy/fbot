@@ -4,5 +4,7 @@ var
   web = require('../lib/web.js');
   
 
+// TODO: cli options?
+
 bot.init();
 web.init();
